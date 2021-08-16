@@ -19,7 +19,7 @@ public class ItemInit {
             GitenraftMain.MOD_ID);
     //tool
     public static final RegistryObject<Item> Scitic_spear = ITEMS.register("scitic_spear",
-            () -> new Scitic_spear(new Item.Properties().tab(GitenraftCreativeTab.NoteGroup).stacksTo(160)));
+            () -> new Scitic_spear(new Item.Properties().tab(GitenraftCreativeTab.NoteGroup)));
 
     public static final RegistryObject<Item> Cop_sword = ITEMS.register("cop_sword",
             () -> new Cop_sword(new Item.Properties().tab(GitenraftCreativeTab.NoteGroup)));
