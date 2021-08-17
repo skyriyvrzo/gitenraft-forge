@@ -8,12 +8,14 @@ import java.util.function.Supplier;
 public enum ItemCreate implements Tier {
 
     Spear(2, 500, 3.0f, 5.0f, 10,
-            ()->{return Ingredient.of(Items.IRON_INGOT);}),   // ToolLevel/Durability/AttackSpeed/AttackDamage//Item use Repair
+            ()->{return Ingredient.of(Items.IRON_INGOT);}),   // ToolLevel/Durability/AttackSpeed/AttackDamage[+5 Bonus AD]/enchantmentValue/Item use Repair
 
     Feathery_Sword(2, 350, 3.0f, 5.0f, 3,
             ()->{return Ingredient.of(Items.IRON_INGOT);}),
     High_Pickaxe(5, 500, 3.0f, 5.0f, 3,
-            () ->{return null;});
+            () ->{return null;}),
+	
+    Emerald_Pickaxe(5, 3096, 6.0f, 5.0f, 3, () ->{return Ingredient.of(Items.EMERALD);});
 
 
     private final int toolLevel;
