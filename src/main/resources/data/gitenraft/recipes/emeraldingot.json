@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "#DD",
+        "DD "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:emerald"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        }
+    },
+    "result": {
+        "item": "gitenraft:emerald_ingot",
+        "count": 1
+    }
+}

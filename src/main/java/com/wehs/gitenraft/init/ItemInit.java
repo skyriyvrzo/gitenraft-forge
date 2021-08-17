@@ -50,5 +50,8 @@ public class ItemInit {
     public static final RegistryObject<Item> BigGlasses1 = ITEMS.register("big_glasses1",
             () -> new ArmorItem(ArmorCreate.GlassesB1, EquipmentSlot.HEAD,
                     new Item.Properties().tab(GitenraftCreativeTab.NoteGroup)));
+    
+    //ore
+    public static final RegistryObject<Item> Emerald_Ingot = ITEMS.register("emerald_ingot", () -> new Item(new Item.Properties().tab(GitenraftCreativeTab.GetGroup)));
 
 }
