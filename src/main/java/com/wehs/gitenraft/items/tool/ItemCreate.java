@@ -3,14 +3,12 @@ package com.wehs.gitenraft.items.tool;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.crafting.Ingredient;
-import org.apache.commons.lang3.ObjectUtils;
-
 import java.util.function.Supplier;
 
 public enum ItemCreate implements Tier {
 
     Spear(2, 500, 3.0f, 5.0f, 10,
-            ()->{return Ingredient.of(Items.IRON_INGOT);}),
+            ()->{return Ingredient.of(Items.IRON_INGOT);}),   // ToolLevel/Durability/AttackSpeed/AttackDamage//Item use Repair
 
     Feathery_Sword(2, 350, 3.0f, 5.0f, 3,
             ()->{return Ingredient.of(Items.IRON_INGOT);}),
