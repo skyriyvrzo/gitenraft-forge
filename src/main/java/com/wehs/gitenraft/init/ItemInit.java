@@ -57,6 +57,6 @@ public class ItemInit {
     
     
     //creativetab icon
-    public static final RegistryObject<Item> pickaxeicon = ITEMS.register("pickaxe_icon", ()-> new  Item(new Item.Properties().stacksTo(512).defaultDurability(5000).durability(1000)));
+    public static final RegistryObject<Item> pickaxeicon = ITEMS.register("pickaxe_icon", ()-> new  Item(new Item.Properties().stacksTo(512)));
 
 }
