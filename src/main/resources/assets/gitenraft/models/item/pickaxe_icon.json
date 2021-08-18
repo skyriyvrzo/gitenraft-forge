@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/handheld",
   "textures": {
-    "layer0": "minecraft:items/pickaxe_icon"
+    "layer0": "gitenraft:items/pickaxe_icon"
   }
 }
