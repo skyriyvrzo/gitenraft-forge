@@ -57,6 +57,6 @@ public class ItemInit {
     
     
     //creativetab icon
-    public static final RegistryObject<Item> pickaxeicon = ITEMS.register("pickaxe_icon", ()-> new  Item(new Item.Properties().tab(GitenraftCreativeTab.GetGroup)));
+    public static final RegistryObject<Item> pickaxeicon = ITEMS.register("pickaxe_icon", ()-> new  Item(new Item.Properties().stacksTo(512)));
 
 }

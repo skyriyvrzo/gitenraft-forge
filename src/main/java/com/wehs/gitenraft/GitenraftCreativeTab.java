@@ -29,7 +29,7 @@ public class GitenraftCreativeTab {
 
 			@Override
 			public ItemStack makeIcon() {
-	            return new ItemStack(ItemInit.Emerald_pickaxe.get());
+	            return new ItemStack(ItemInit.pickaxeicon.get());
 	            }
 	    }
 }
