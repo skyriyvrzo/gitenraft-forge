@@ -7,6 +7,7 @@ import com.wehs.gitenraft.items.tool.Emerald_pickaxe;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.Item.Properties;
 import net.minecraftforge.fmllegacy.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -53,5 +54,9 @@ public class ItemInit {
     
     //ore
     public static final RegistryObject<Item> Emerald_Ingot = ITEMS.register("emerald_ingot", () -> new Item(new Item.Properties().tab(GitenraftCreativeTab.GetGroup)));
+    
+    
+    //creativetab icon
+    public static final RegistryObject<Item> pickaxeicon = ITEMS.register("pickaxe_icon", ()-> new  Item(new Item.Properties().tab(GitenraftCreativeTab.GetGroup)));
 
 }

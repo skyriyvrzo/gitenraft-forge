@@ -18,7 +18,7 @@ public class Scitic_spear extends PickaxeItem {
     @Override
     public InteractionResultHolder<ItemStack> use(Level worldIn, Player playerIn, InteractionHand handIn){
         playerIn.getCooldowns().addCooldown(this, 1200);
-        playerIn.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED,200,1));
+        playerIn.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SPEED,200,1));;
         return super.use(worldIn, playerIn, handIn);
     }
 }

@@ -15,7 +15,7 @@ public enum ItemCreate implements Tier {
     High_Pickaxe(5, 500, 3.0f, 5.0f, 3,
             () ->{return null;}),
 	
-    Emerald_Pickaxe(5, 3096, 3.0f, 5.0f, 3, () ->{return Ingredient.of(Items.EMERALD);});
+    Emerald_Pickaxe(5, 3072, 3.0f, 5.0f, 3, () ->{return Ingredient.of(Items.EMERALD);});
 
 
     private final int toolLevel;
