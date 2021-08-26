@@ -1,5 +1,6 @@
 package com.wehs.gitenraft.init;
 
+import com.wehs.gitenraft.items.tool.*;
 import com.wehs.gitenraft.GitenraftMain;
 import com.wehs.gitenraft.GitenraftCreativeTab;
 import com.wehs.gitenraft.items.armor.ArmorCreate;
@@ -24,6 +25,12 @@ public class ItemInit {
 
     public static final RegistryObject<Item> Cop_sword = ITEMS.register("cop_sword",
             () -> new Cop_sword(new Item.Properties().tab(GitenraftCreativeTab.NoteGroup)));
+
+    //new {
+    public static final RegistryObject<Item> Singcet_sword = ITEMS.register("singcet_sword",
+            () -> new Singcet_sword(new Item.Properties().tab(GitenraftCreativeTab.NoteGroup)));
+    //new }
+
     public static final RegistryObject<Item> Emerald_pickaxe = ITEMS.register("emerald_pickaxe",
             () -> new Emerald_pickaxe(new Item.Properties().tab(GitenraftCreativeTab.GetGroup)));
 
