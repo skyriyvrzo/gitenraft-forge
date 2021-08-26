@@ -32,7 +32,7 @@ public class ItemInit {
     //new }
 
     public static final RegistryObject<Item> Emerald_pickaxe = ITEMS.register("emerald_pickaxe",
-            () -> new Emerald_pickaxe(new Item.Properties().tab(GitenraftCreativeTab.GetGroup)));
+            () -> new Emerald_pickaxe(new Item.Properties().tab(GitenraftCreativeTab.GetGroup).fireResistant()));
 
     //armor
     public static final RegistryObject<Item> First_Chestplate = ITEMS.register("first_chestplate",
@@ -60,7 +60,7 @@ public class ItemInit {
                     new Item.Properties().tab(GitenraftCreativeTab.NoteGroup)));
     
     //ore
-    public static final RegistryObject<Item> Emerald_Ingot = ITEMS.register("emerald_ingot", () -> new Item(new Item.Properties().tab(GitenraftCreativeTab.GetGroup)));
+    public static final RegistryObject<Item> Emerald_Ingot = ITEMS.register("emerald_ingot", () -> new Item(new Item.Properties().tab(GitenraftCreativeTab.GetGroup).fireResistant()));
     
     
     //creativetab icon
