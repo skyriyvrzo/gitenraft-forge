@@ -4,5 +4,11 @@
 
   "item.gitenraft.scitic_spear": "Scitic spear",
   "item.gitenraft.cop_sword": "Cop Sword",
-  "item.gitenraft.emerald_pickaxe": "Emerald Pickaxe"
+  "item.gitenraft.emerald_pickaxe": "Emerald Pickaxe",
+  "item.gitenraft.illusioner_spawn_egg": "Illusioner Spawn Egg",
+  "item.gitenraft.iron_golem_spawn_egg": "Iron Golem Spawn Egg",
+  "item.gitenraft.snow_golem_spawn_egg": "Snow Golem Spawn Egg",
+  "item.gitenraft.wither_spawn_egg": "Wither Spawn Egg",
+  "item.gitenraft.ender_dragon_spawn_egg": "Ender Dragon Spawn Egg"
+ 
 }
