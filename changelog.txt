@@ -20,6 +20,7 @@ Build: 1.17.1-37.0.25 - Wed Aug 04 08:44:11 GMT 2021
 =========
 Build: 1.17.1-37.0.24 - Wed Aug 04 08:08:36 GMT 2021
 	lexmanos:
+		Add forceSystemNanoTime config option to the client.
 		Normally glfwGetTime is used, but in some cases it may have performance issues.
 
 	lexmanos:
