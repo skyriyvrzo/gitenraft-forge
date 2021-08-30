@@ -59,8 +59,8 @@ public class ItemInit {
                     new Item.Properties().tab(GitenraftCreativeTab.NoteGroup)));
     
     //ore
-    public static final RegistryObject<Item> Deameral_Ingot = ITEMS.register("deamerald_ingot ", () -> new Item(new Item.Properties().tab(GitenraftCreativeTab.GetGroup).fireResistant()));
-    
+    public static final RegistryObject<Item> Deameral_ingot = ITEMS.register("deameral_ingot", ()-> new  Item(new Item.Properties().fireResistant().tab(GitenraftCreativeTab.GetGroup)));
+
     
     //creativetab icon
     public static final RegistryObject<Item> pickaxeicon = ITEMS.register("pickaxe_icon", ()-> new  Item(new Item.Properties().stacksTo(512)));
