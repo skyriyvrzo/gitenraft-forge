@@ -8,7 +8,7 @@ import net.minecraft.world.level.material.Material;
 public class Copper_shovel extends ShovelItem {
     public Copper_shovel(Properties PropertShovel) {
         //super(Properties, attackDamage, speedAttack, Properties)
-        super(ItemCreate.Copper_Shovel, 1, -2.8f, PropertShovel);   // Base AD +6.0 AD [can not change ]// Base Sp Atk +4.0 Sp Atk
+        super(ItemCreate.Copper_Shovel, 1, -2.8f, PropertShovel);   //Attack Damage// Base Sp Atk +4.0 Sp Atk
     }
     
 	@Override

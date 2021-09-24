@@ -8,7 +8,7 @@ import net.minecraft.world.level.material.Material;
 public class Copper_pickaxe extends PickaxeItem {
     public Copper_pickaxe(Properties PropertPickaxe) {
         //super(Properties, attackDamage, speedAttack, Properties)
-        super(ItemCreate.Copper_Pickaxe, 1, -2.8f, PropertPickaxe);   // Base AD +6.0 AD [can not change ]// Base Sp Atk +4.0 Sp Atk
+        super(ItemCreate.Copper_Pickaxe, 1, -2.8f, PropertPickaxe);   //Attack Damage// Base Sp Atk +4.0 Sp Atk
     }
     
 	@Override

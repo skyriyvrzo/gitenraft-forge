@@ -8,7 +8,7 @@ import net.minecraft.world.level.material.Material;
 public class Copper_hoe extends HoeItem {
     public Copper_hoe(Properties PropertHoe) {
         //super(Properties, attackDamage, speedAttack, Properties)
-        super(ItemCreate.Copper_Axe, 1, -1.5f, PropertHoe);   // Base AD +6.0 AD [can not change ]// Base Sp Atk +4.0 Sp Atk
+        super(ItemCreate.Copper_Axe, -7, -1.5f, PropertHoe);   //Attack Damage// Base Sp Atk +4.0 Sp Atk
     }
     
 	@Override
