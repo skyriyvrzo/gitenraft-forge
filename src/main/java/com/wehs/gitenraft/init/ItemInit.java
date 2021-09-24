@@ -4,7 +4,6 @@ import com.wehs.gitenraft.items.tool.*;
 import com.wehs.gitenraft.GitenraftMain;
 import com.wehs.gitenraft.GitenraftCreativeTab;
 import com.wehs.gitenraft.items.armor.ArmorCreate;
-import com.wehs.gitenraft.items.tool.Emerald_pickaxe;
 
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -35,7 +34,13 @@ public class ItemInit {
     //new }
 
     public static final RegistryObject<Item> Emerald_pickaxe = ITEMS.register("emerald_pickaxe",
-            () -> new Emerald_pickaxe(new Item.Properties().tab(GitenraftCreativeTab.GetGroup).fireResistant()));
+            () -> new Emerald_pickaxe(new Item.Properties().tab(GitenraftCreativeTab.GetGroup)));
+    
+    public static final RegistryObject<Item> Copper_pickaxe = ITEMS.register("copper_pickaxe", () -> new Copper_pickaxe(new Item.Properties().tab(GitenraftCreativeTab.GetGroup)));
+    public static final RegistryObject<Item> Copper_shovel = ITEMS.register("copper_shovel", () -> new Copper_shovel(new Item.Properties().tab(GitenraftCreativeTab.GetGroup)));
+    public static final RegistryObject<Item> Copper_axe = ITEMS.register("copper_axe", () -> new Copper_axe(new Item.Properties().tab(GitenraftCreativeTab.GetGroup)));
+    public static final RegistryObject<Item> Copper_sword = ITEMS.register("copper_sword", () -> new Copper_sword(new Item.Properties().tab(GitenraftCreativeTab.GetGroup)));
+    public static final RegistryObject<Item> Copper_hoe = ITEMS.register("copper_hoe", () -> new Copper_hoe(new Item.Properties().tab(GitenraftCreativeTab.GetGroup)));
 
     //armor
     public static final RegistryObject<Item> First_Chestplate = ITEMS.register("first_chestplate",

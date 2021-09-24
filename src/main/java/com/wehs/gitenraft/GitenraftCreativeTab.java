@@ -7,12 +7,12 @@ import net.minecraft.world.item.ItemStack;
 
 public class GitenraftCreativeTab {
 	   public static final CreativeModeTab NoteGroup = new NoteGroup("tab_note");
-	    public static final CreativeModeTab GetGroup = new GetGroup("tab_get");
+	   public static final CreativeModeTab GetGroup = new GetGroup("tab_get");
 
 	    
 		public static class NoteGroup extends CreativeModeTab {
 
-			public NoteGroup(String tab_note) {
+			public NoteGroup(String tab1) {
 				super("tab_note");
 			}
 
@@ -23,7 +23,7 @@ public class GitenraftCreativeTab {
 		};
 		public static class GetGroup extends CreativeModeTab {
 
-			public GetGroup(String tab_get) {
+			public GetGroup(String tab2) {
 				super("tab_get");
 			}
 

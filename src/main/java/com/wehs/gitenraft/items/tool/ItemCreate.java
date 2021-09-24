@@ -8,14 +8,23 @@ import java.util.function.Supplier;
 public enum ItemCreate implements Tier {
 
     Spear(2, 500, 3.0f, 5.0f, 10,
-            ()->{return Ingredient.of(Items.IRON_INGOT);}),   // ToolLevel/Durability/AttackSpeed/AttackDamage[+5 Bonus AD]/enchantmentValue/Item use Repair
+            ()->{return Ingredient.of(Items.IRON_INGOT);}),   // ToolLevel/Durability/AttackSpeed/AttackDamage[+2 Bonus AD]/enchantmentValue/Item use Repair
 
     Feathery_Sword(2, 350, 3.0f, 5.0f, 3,
             ()->{return Ingredient.of(Items.IRON_INGOT);}),
     High_Pickaxe(5, 500, 3.0f, 5.0f, 3,
             () ->{return null;}),
 	
-    Emerald_Pickaxe(5, 3072, 3.0f, 5.0f, 3, () ->{return Ingredient.of(Items.EMERALD);});
+    Emerald_Pickaxe(5, 3072, 3.0f, 5.0f, 3, () ->{return Ingredient.of(Items.EMERALD);}),  
+    Copper_Pickaxe(2, 203, 3.0f, 1.5f, 4, () ->{return Ingredient.of(Items.COPPER_INGOT);}), // ToolLevel/Durability/AttackSpeed/AttackDamage[+2 Bonus AD / Sword +1 Bonus AD]/enchantmentValue/Item use Repair
+    Copper_Shovel(2, 203, 3.0f, 2.0f, 4, () ->{return Ingredient.of(Items.COPPER_INGOT);}),
+    Copper_Axe(2, 203, 3.0f, 7.0f, 4, () ->{return Ingredient.of(Items.COPPER_INGOT);}),
+    Copper_Sword(2, 203, 3.0f, 5.5f, 4, () ->{return Ingredient.of(Items.COPPER_INGOT);}),
+    Copper_Hoe(2, 203, 3.0f, -1.0f, 4, () ->{return Ingredient.of(Items.COPPER_INGOT);});
+
+
+
+
 
 
     private final int toolLevel;
