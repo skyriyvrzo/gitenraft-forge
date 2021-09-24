@@ -8,7 +8,7 @@ import net.minecraft.world.level.material.Material;
 public class Copper_axe extends AxeItem {
     public Copper_axe(Properties PropertAxe) {
         //super(Properties, attackDamage, speedAttack, Properties)
-        super(ItemCreate.Copper_Axe, 1, -4.85f, PropertAxe);   //Attack Damage// Base Sp Atk +4.0 Sp Atk
+        super(ItemCreate.Copper_Axe, 1, -3.2f, PropertAxe);   //Attack Damage// Base Sp Atk +4.0 Sp Atk
     }
     
 	@Override
