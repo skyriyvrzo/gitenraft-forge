@@ -72,10 +72,10 @@ public class ItemInit {
     public static final RegistryObject<Item> pickaxeicon = ITEMS.register("pickaxe_icon", ()-> new  Item(new Item.Properties().stacksTo(512)));
 
     
-    public static final RegistryObject<SpawnEggItem> IRON_GOLEM_SPAWN_EGG = ITEMS.register("iron_golem_spawn_egg", () -> new SpawnEggItem(EntityType.IRON_GOLEM, 12960449, 16769484, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-    public static final RegistryObject<SpawnEggItem> SNOW_GOLEM_SPAWN_EGG = ITEMS.register("snow_golem_spawn_egg", () -> new SpawnEggItem(EntityType.SNOW_GOLEM, 15663103, 16753185, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-    public static final RegistryObject<SpawnEggItem> ILLUSIONER_SPAWN_EGG = ITEMS.register("illusioner_spawn_egg", () -> new SpawnEggItem(EntityType.ILLUSIONER, 9804699, 4547222, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-    public static final RegistryObject<SpawnEggItem> WITHER_SPAWN_EGG = ITEMS.register("wither_spawn_egg", () -> new SpawnEggItem(EntityType.WITHER, 9914699, 4657222, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-    public static final RegistryObject<SpawnEggItem> ENDER_DRAGON_SPAWN_EGG = ITEMS.register("ender_dragon_spawn_egg", () -> new SpawnEggItem(EntityType.ENDER_DRAGON, 9904699, 4647222, new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    public static final RegistryObject<SpawnEggItem> IRON_GOLEM_SPAWN_EGG = ITEMS.register("iron_golem_spawn_egg", () -> new SpawnEggItem(EntityType.IRON_GOLEM, 12960449, 16769484, new Item.Properties().tab(CreativeModeTab.TAB_MISC).tab(GitenraftCreativeTab.SpawnEggGroup)));
+    public static final RegistryObject<SpawnEggItem> SNOW_GOLEM_SPAWN_EGG = ITEMS.register("snow_golem_spawn_egg", () -> new SpawnEggItem(EntityType.SNOW_GOLEM, 15663103, 16753185, new Item.Properties().tab(CreativeModeTab.TAB_MISC).tab(GitenraftCreativeTab.SpawnEggGroup)));
+    public static final RegistryObject<SpawnEggItem> ILLUSIONER_SPAWN_EGG = ITEMS.register("illusioner_spawn_egg", () -> new SpawnEggItem(EntityType.ILLUSIONER, 9804699, 4547222, new Item.Properties().tab(CreativeModeTab.TAB_MISC).tab(GitenraftCreativeTab.SpawnEggGroup)));
+    public static final RegistryObject<SpawnEggItem> WITHER_SPAWN_EGG = ITEMS.register("wither_spawn_egg", () -> new SpawnEggItem(EntityType.WITHER, 9914699, 4657222, new Item.Properties().tab(CreativeModeTab.TAB_MISC).tab(GitenraftCreativeTab.SpawnEggGroup)));
+    public static final RegistryObject<SpawnEggItem> ENDER_DRAGON_SPAWN_EGG = ITEMS.register("ender_dragon_spawn_egg", () -> new SpawnEggItem(EntityType.ENDER_DRAGON, 9904699, 4647222, new Item.Properties().tab(CreativeModeTab.TAB_MISC).tab(GitenraftCreativeTab.SpawnEggGroup)));
 
 }

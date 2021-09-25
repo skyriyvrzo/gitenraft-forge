@@ -8,6 +8,8 @@ import net.minecraft.world.item.ItemStack;
 public class GitenraftCreativeTab {
 	   public static final CreativeModeTab NoteGroup = new NoteGroup("tab_note");
 	   public static final CreativeModeTab GetGroup = new GetGroup("tab_get");
+	   public static final CreativeModeTab SpawnEggGroup = new SpawnEggGroup("tab_spawnegg");
+
 
 	    
 		public static class NoteGroup extends CreativeModeTab {
@@ -30,6 +32,17 @@ public class GitenraftCreativeTab {
 			@Override
 			public ItemStack makeIcon() {
 	            return new ItemStack(ItemInit.pickaxeicon.get());
+	            }
+	    };
+		public static class SpawnEggGroup extends CreativeModeTab {
+
+			public SpawnEggGroup(String tab3) {
+				super("tab_spawnegg");
+			}
+
+			@Override
+			public ItemStack makeIcon() {
+	            return new ItemStack(ItemInit.SNOW_GOLEM_SPAWN_EGG.get());
 	            }
 	    }
 }
