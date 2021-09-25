@@ -14,7 +14,7 @@ public class GitenraftCreativeTab {
 	    
 		public static class NoteGroup extends CreativeModeTab {
 
-			public NoteGroup(String tab1) {
+			public NoteGroup(String string) {
 				super("tab_note");
 			}
 
@@ -25,7 +25,7 @@ public class GitenraftCreativeTab {
 		};
 		public static class GetGroup extends CreativeModeTab {
 
-			public GetGroup(String tab2) {
+			public GetGroup(String string) {
 				super("tab_get");
 			}
 
@@ -36,7 +36,7 @@ public class GitenraftCreativeTab {
 	    };
 		public static class SpawnEggGroup extends CreativeModeTab {
 
-			public SpawnEggGroup(String tab3) {
+			public SpawnEggGroup(String string) {
 				super("tab_spawnegg");
 			}
 
