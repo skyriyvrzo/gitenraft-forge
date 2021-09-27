@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "///",
+        " / "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:carved_pumpkin"
+        },
+        "/": {
+            "item": "minecraft:iron_block"
+        }
+    },
+    "result": {
+        "item": "gitenraft:iron_golem_spawn_egg" 
+           }
+}

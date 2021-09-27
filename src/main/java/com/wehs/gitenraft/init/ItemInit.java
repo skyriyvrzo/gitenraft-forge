@@ -8,6 +8,7 @@ import com.wehs.gitenraft.items.armor.ArmorCreate;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SpawnEggItem;
@@ -77,5 +78,7 @@ public class ItemInit {
     public static final RegistryObject<SpawnEggItem> ILLUSIONER_SPAWN_EGG = ITEMS.register("illusioner_spawn_egg", () -> new SpawnEggItem(EntityType.ILLUSIONER, 9804699, 4547222, new Item.Properties().tab(GitenraftCreativeTab.SpawnEggGroup)));
     public static final RegistryObject<SpawnEggItem> WITHER_SPAWN_EGG = ITEMS.register("wither_spawn_egg", () -> new SpawnEggItem(EntityType.WITHER, 9914699, 4657222, new Item.Properties().tab(GitenraftCreativeTab.SpawnEggGroup)));
     public static final RegistryObject<SpawnEggItem> ENDER_DRAGON_SPAWN_EGG = ITEMS.register("ender_dragon_spawn_egg", () -> new SpawnEggItem(EntityType.ENDER_DRAGON, 9904699, 4647222, new Item.Properties().tab(GitenraftCreativeTab.SpawnEggGroup)));
+
+    
 
 }
