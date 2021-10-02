@@ -21,8 +21,9 @@ public class BlockInit {
 	public static final RegistryObject<Block> usb_charger = BLOCKS.register("usb_charger", () -> new usb_charger(BlockBehaviour.Properties.of(Material.GLASS, MaterialColor.COLOR_BLUE)
 			.requiresCorrectToolForDrops()
 			.harvestTool(ToolType.PICKAXE)
-			.harvestLevel(0)
-			.strength(0.4f)
+			.harvestLevel(1)
+			.strength(0.5f)
+			.destroyTime(2)
 			.lightLevel(value -> 6)
 			.sound(SoundType.METAL)));
 }
