@@ -1,5 +1,6 @@
 package com.wehs.gitenraft.init;
 
+import com.wehs.gitenraft.blocks.*;
 import com.wehs.gitenraft.items.tool.*;
 import com.wehs.gitenraft.GitenraftMain;
 import com.wehs.gitenraft.GitenraftCreativeTab;
@@ -79,6 +80,8 @@ public class ItemInit {
     public static final RegistryObject<SpawnEggItem> WITHER_SPAWN_EGG = ITEMS.register("wither_spawn_egg", () -> new SpawnEggItem(EntityType.WITHER, 9914699, 4657222, new Item.Properties().tab(GitenraftCreativeTab.SpawnEggGroup)));
     public static final RegistryObject<SpawnEggItem> ENDER_DRAGON_SPAWN_EGG = ITEMS.register("ender_dragon_spawn_egg", () -> new SpawnEggItem(EntityType.ENDER_DRAGON, 9904699, 4647222, new Item.Properties().tab(GitenraftCreativeTab.SpawnEggGroup)));
 
-    
+    //blocks
+	public static final RegistryObject<BlockItem> usb_charger = ITEMS.register("usb_charger", () -> new BlockItem(BlockInit.usb_charger.get(), new Item.Properties().tab(CreativeModeTab.TAB_REDSTONE)));
+
 
 }
