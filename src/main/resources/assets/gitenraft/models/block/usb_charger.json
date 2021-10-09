@@ -1,8 +1,0 @@
-{
-    "parent": "block/cube_bottom_top",
-    "textures": {
-    "bottom": "gitenraft:blocks/usb_charger_bottom",
-    "top": "gitenraft:blocks/usb_charger_top",
-    "side": "gitenraft:blocks/usb_charger_side"
-  }
-}
