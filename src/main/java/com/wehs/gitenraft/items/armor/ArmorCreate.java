@@ -13,16 +13,6 @@ public enum ArmorCreate implements ArmorMaterial {
     Lether_Armor_Type("first", 10, new int[]{1, 2, 3, 1}, 5, 0.0f, 0.0f,
             SoundEvents.ARMOR_EQUIP_LEATHER, () -> {
         return Ingredient.of(Items.LEATHER);}),
-    Glasses("glasses", 15, new int[]{1, 0, 0, 0}, 0, 1.0f, 0.0f,
-            SoundEvents.ARMOR_EQUIP_LEATHER, ()-> {
-        return Ingredient.of(Items.GLASS_PANE);}),
-    GlassesB("big_glasses", 15, new int[]{1, 0, 0, 0}, 0, 1.0f, 0.0f,
-            SoundEvents.ARMOR_EQUIP_LEATHER, ()-> {
-                return Ingredient.of(Items.GLASS_PANE);}),
-    GlassesB1("big_glasses1", 15, new int[]{1, 0, 0, 0}, 0, 1.0f, 0.0f,
-            SoundEvents.ARMOR_EQUIP_LEATHER, ()-> {
-        return Ingredient.of(Items.GLASS_PANE);});
-
 
     private static final int[] baseDurability = {100, 100, 100, 100};
     private final String name;
