@@ -42,12 +42,12 @@ public class ItemInit {
     public static final RegistryObject<Item> Singcet_sword = ITEMS.register("singcet_sword", () -> new Singcet_sword(new Item.Properties().tab(GitenraftCreativeTab.NoteGroup)));
         
     //armor
-        //first set
-    public static final RegistryObject<Item> First_Chestplate = ITEMS.register("first_chestplate",
+        //leatheron set
+    public static final RegistryObject<Item> Leatheron_Chestplate = ITEMS.register("leatheron_chestplate",
             () -> new ArmorItem(ArmorCreate.Lether_Armor_Type, EquipmentSlot.CHEST, new Item.Properties().tab(GitenraftCreativeTab.NoteGroup)));
-    public static final RegistryObject<Item> First_Leggings = ITEMS.register("first_leggings",
+    public static final RegistryObject<Item> Leatheron_Leggings = ITEMS.register("leatheron_leggings",
             () -> new ArmorItem(ArmorCreate.Lether_Armor_Type, EquipmentSlot.LEGS, new Item.Properties().tab(GitenraftCreativeTab.NoteGroup)));
-    public static final RegistryObject<Item> First_Boots = ITEMS.register("first_boots",
+    public static final RegistryObject<Item> Leatheron_Boots = ITEMS.register("leatheron_boots",
             ()-> new ArmorItem(ArmorCreate.Lether_Armor_Type, EquipmentSlot.FEET, new Item.Properties().tab(GitenraftCreativeTab.NoteGroup)));
     
     //creativetab icon
