@@ -42,13 +42,17 @@ public class ItemInit {
     public static final RegistryObject<Item> Singcet_sword = ITEMS.register("singcet_sword", () -> new Singcet_sword(new Item.Properties().tab(GitenraftCreativeTab.NoteGroup)));
         
     //armor
-        //leatheron set
     public static final RegistryObject<Item> Leatheron_Chestplate = ITEMS.register("leatheron_chestplate",
-            () -> new ArmorItem(ArmorCreate.Lether_Armor_Type, EquipmentSlot.CHEST, new Item.Properties().tab(GitenraftCreativeTab.NoteGroup)));
+    		() -> new ArmorItem(ArmorCreate.Leatheron_Armor, EquipmentSlot.CHEST, 
+    				new Item.Properties().tab(GitenraftCreativeTab.NoteGroup)));
+    
     public static final RegistryObject<Item> Leatheron_Leggings = ITEMS.register("leatheron_leggings",
-            () -> new ArmorItem(ArmorCreate.Lether_Armor_Type, EquipmentSlot.LEGS, new Item.Properties().tab(GitenraftCreativeTab.NoteGroup)));
+    		() -> new ArmorItem(ArmorCreate.Leatheron_Armor, EquipmentSlot.LEGS, 
+    				new Item.Properties().tab(GitenraftCreativeTab.NoteGroup)));
+    
     public static final RegistryObject<Item> Leatheron_Boots = ITEMS.register("leatheron_boots",
-            ()-> new ArmorItem(ArmorCreate.Lether_Armor_Type, EquipmentSlot.FEET, new Item.Properties().tab(GitenraftCreativeTab.NoteGroup)));
+    		() -> new ArmorItem(ArmorCreate.Leatheron_Armor, EquipmentSlot.FEET, 
+    				new Item.Properties().tab(GitenraftCreativeTab.NoteGroup)));
     
     //creativetab icon
     public static final RegistryObject<Item> pickaxeicon = ITEMS.register("pickaxe_icon", ()-> new  Item(new Item.Properties().stacksTo(512)));

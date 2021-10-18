@@ -10,9 +10,8 @@ import net.minecraft.world.item.crafting.Ingredient;
 import java.util.function.Supplier;
 
 public enum ArmorCreate implements ArmorMaterial {
-    Lether_Armor_Type("first", 10, new int[]{1, 2, 3, 1}, 5, 0.0f, 0.0f,
-            SoundEvents.ARMOR_EQUIP_LEATHER, () -> {
-        return Ingredient.of(Items.LEATHER);});
+	Leatheron_Armor("leatheron", 10, new int[]{1, 2, 3, 1}, 5, 0.0f, 0.0f,
+            SoundEvents.ARMOR_EQUIP_LEATHER, () -> {return Ingredient.of(Items.LEATHER);});
 
     private static final int[] baseDurability = {100, 100, 100, 100};
     private final String name;
